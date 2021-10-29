@@ -1,0 +1,450 @@
+/* TAMANHO PADRÃO PARA TABLETS */
+@media only screen and (max-width: 768px) {
+
+	.header-black ul {
+			display: none;
+		}
+
+	header #logo {
+    position: absolute;
+    top: 4px;
+    height: 132px;
+    left: 5%;
+	}
+
+	#menu {
+    margin: 35px 0px 0px 82px;
+	}	
+
+	#menu li a {
+    font-size: 14px;
+    color: #FFF;
+    padding: 10px 15px;
+	}
+
+	header #input-search-mobile {
+  	transition: 2s;
+  	position: absolute;
+		width: 60%;
+    margin-left: 20%;
+    margin-top: -40px;
+    background-color: #F7F8E0;
+    color: #5E2799;
+    border: none;
+    display: block;
+  }
+
+	.open-search #input-search-mobile {
+    margin-top: 6px;
+  }
+
+	header #btn-search {
+		color: #fff;
+		font-size: 27px;
+		position: absolute;
+		top: 2px;
+		background: none;
+  	border: none;
+  	display: block;
+	}
+
+	header #btn-search {
+		right: 30px;
+	}
+
+	#menu li.search{
+		display: none;
+	}
+
+	#banner h1 {
+    font-size: 60px;
+	}
+
+	#banner h1 small {
+    font-size: 20px
+  }
+
+  #news .thumbnails img {
+    width: 230px;
+	}
+
+	#news .thumbnails h3 {
+    width: 230px;
+  }
+  
+  #estatisticas {
+    height: 590px;
+  }
+
+  #call-to-action h2 {
+    font-size: 40px;
+  }
+
+  #btn {
+    display: inline;
+	}
+
+	#call-to-action .btn {
+    min-width: 130px;
+	}
+
+	#call-to-action .btn-roxo {
+    float: left;
+    margin: 0 40px;
+	}
+
+	#call-to-action .btn-amarelo {
+    float: right;
+    margin: 0 40px;
+	}
+
+	footer {
+  	margin-top: 190px;
+	}
+
+	footer .row-cinza-claro {
+  	height: 83px;
+  	margin: 0px 0px 0px -170px;
+	}
+
+	footer #logo, #populares, #links {
+		display: none;
+	}
+
+	footer .col-md-3 h4, .col-md-3 address, .col-md-3 p {
+		display: none;
+	}
+
+	footer .lista-sociais {
+    margin: -32px 0 0 70px;
+	}
+
+	footer .lista-sociais li {
+  	padding: 40px;
+	}
+
+	footer #intelectual {
+  	display: block;
+  	line-height: 1;
+  	text-align: center;
+  	margin-top: 9px;
+	}
+
+	footer #copyrigth, #created {
+  	font-size: 9px;
+  }
+
+  footer #created {
+  	font-size: 10px;
+  }
+
+}
+
+
+/* TAMANHO PADRÃO PARA SMARTPHONES */
+@media only screen and (max-width: 480px) {
+
+
+	header .header-black {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		z-index: 6;
+	}
+
+	header .header-black ul, #menu {
+		display: none;
+	}
+
+	header #logo {
+		left: 35%;
+		height: 130px;
+		z-index: 9;
+		transition: 1s;
+		display: block;
+	}
+
+	header #btn-bars, #btn-search {
+		color: #fff;
+		font-size: 27px;
+		position: absolute;
+		top: 2px;
+		background: none;
+  	border: none;
+  	display: block;
+	}
+
+	header #btn-bars {
+		left: 5px;
+	}
+
+	header #btn-search {
+		right: 20px;
+	}
+
+	#banner {
+		height: 410px;
+		background-size: cover;
+		background-position: 0;
+		text-align: center;
+	}
+
+	#banner h1 {
+		top: 180px;
+		font-size: 48px;
+		color: #fff;
+		margin-left: 0;
+	}
+
+	#banner h1 small {
+		font-size: 22px;
+		color: #fff;
+	}
+
+	#news {
+		top: -43px
+	}
+	
+	#news h2 {
+		font-size: 30px;
+	}	
+
+	#news hr {
+	    width: 260px;
+	}
+
+	.owl-carousel .owl-wrapper-outer {
+		margin-left: 25px;
+	}
+
+	.thumbnails {
+		text-align: center;
+	}
+
+	#news .thumbnails img {
+		width: 80%;
+		margin-left: -10px;;
+	}
+
+	#btn-news-prev, #btn-news-next {
+		background: none;
+		border: none;
+		color: #5E2699;
+		font-size: 48px;		
+		display: block;	
+		position: absolute;
+		top: 115px;
+		z-index: 1;
+		outline: 0;
+	}
+
+	#btn-news-next {
+		right: 13px;
+	}
+
+	#estatisticas {
+		height: inherit;
+	}
+
+	#estatisticas p {
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+
+	#call-to-action {
+		margin-top: 10px;
+	}
+
+	#call-to-action hr {
+		border-width: 4px;
+		width: 330px;
+	}
+
+	#call-to-action p {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	#call-to-action h2{
+		font-size: 27px;
+	}
+
+	#btn {
+		display: inline;
+	}
+
+	#call-to-action .btn {
+		min-width: 130px;
+		
+	}
+
+	#call-to-action .btn-roxo {
+		float: left;
+		margin:  0;
+	}
+
+	#call-to-action .btn-amarelo {
+  	float: right;
+  	margin:  0;
+	}
+
+	#call-to-action .col-xs-6 {
+  	padding: 0;
+  }
+    
+
+	footer {
+  	margin-top: 190px;
+	}
+
+	footer .row-cinza-claro {
+  	height: 83px;
+  	margin: 0px 0px 0px -200px;
+	}
+
+	footer #logo, #populares, #links {
+		display: none;
+	}
+
+	footer .col-md-3 h4, .col-md-3 address, .col-md-3 p {
+		display: none;
+	}
+
+	footer .lista-sociais {
+    margin-top: -13px;
+	}
+
+	footer .lista-sociais li {
+  	padding: 12px;
+	}
+
+	footer #intelectual {
+  	display: block;
+  	line-height: 1;
+  	text-align: center;
+  	margin-top: 9px;
+	}
+
+	footer #copyrigth, #created {
+  	font-size: 9px;
+  }
+
+  footer #created {
+  	font-size: 10px;
+  }	
+
+  header #menu-mobile {
+		transition: 2s;
+  	position: fixed;
+  	top: 50px;
+  	background-color: #fff;
+  	width: 80%;
+  	height: 100%;
+  	left: -320px;    	    	
+  	display: block;
+  }
+
+  .open-menu #menu-mobile {
+  	left: -55px;    	    	
+  	z-index: 5;
+  }
+    
+  .open-menu #menu-mobile-mask {
+  	position: fixed;
+  	width: 100%;
+  	height: 100%;
+  	top: 0;
+  	left: 0;
+  	background-color: rgb(0, 0, 0, .8);
+  	z-index: 4;
+  }
+
+	.open-menu #logo {
+  	position: fixed;
+  	top: 45px;
+  	height: 76px;
+  	left: calc(33% - 33px);
+  	transition: 2s;
+  	transform: rotate(360deg);
+  }
+  
+	.open-menu #menu-mobile ul {
+  	margin: 0 13px 0 66px;
+  	margin-top: 130px;	
+  }	
+
+  .open-menu #menu-mobile li {
+  	text-align: center;
+  	list-style: none;
+  	border-top: #CCC 1px solid;
+  	padding: 10px
+  }
+
+	.open-menu #menu-mobile li:last-child {
+  	border-bottom: #CCC 1px solid;	
+  }
+    
+  .open-menu #menu-mobile li a {
+  	color: #633392;
+  	font-family: 'OpenSans';
+  	font-weight: bold;
+  	font-size: 16px;
+  	text-decoration: none;
+  	padding: 18px;
+  	display: block;
+  }
+
+  .open-menu .bar-close {
+    bottom: 40px;
+  	background-color: #633492;
+  	height: 60px;
+  	margin-top: 1px;
+  }
+
+  .open-menu .btn-close  {
+    background: none;
+  	border: none;
+  	color: #fff;
+  	font-size: 28px;
+  	width: 100%;
+  	margin-left: -80px;
+  	opacity: 1;
+  } 
+
+  header #input-search-mobile {
+  	transition: 2s;
+  	position: fixed;
+		width: 60%;
+    margin-left: 18%;
+    margin-top: -40px;
+    background-color: #F7F8E0;
+    color: #5E2799;
+    border: none;
+    display: block;
+  }
+
+	.open-search #input-search-mobile {
+    margin-top: 6px;
+  }
+
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
